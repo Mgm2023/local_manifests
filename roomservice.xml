@@ -3,6 +3,11 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/Mgm2023"/>
+    <remote name="VoltageOS"       fetch="Https://GitHub.com/VoltageOS"/>
+
+    <!--hardware/voltage/interfaces-->
+    <remove-project name="VoltageOS/hardware/voltage/interfaces" />
+    <project name="hardware_voltage_interfaces"                 path="hardware/voltage/interfaces"      remote="VoltageOS"      revision="13" />    
 
     <!--Devices Trees-->
     <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="carbon" />
@@ -18,5 +23,6 @@
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="lineage-20" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="lineage-20" />
+    <project name="hardware_voltage_interfaces"                 path="hardware/voltage/interfaces"      remote="source"         revision="13" />
 
 </manifest>
