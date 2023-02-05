@@ -2,27 +2,21 @@
 <manifest>
 
     <!--Remotes-->
-    <remote name="source"          fetch="https://github.com/Mgm2023"/>
-    <remote name="VoltageOS"       fetch="Https://GitHub.com/VoltageOS"/>
-
-    <!--hardware/voltage/interfaces-->
-    <remove-project name="VoltageOS/hardware/voltage/interfaces" />
-    <project name="hardware_voltage_interfaces"                 path="hardware/voltage/interfaces"      remote="VoltageOS"      revision="13" />    
+    <remote name="source"          fetch="https://github.com/Mgm2023"/>  
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="carbon" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="carbon" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="aospa" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="aospa" />
 
     <!--Vendors Trees-->
-    <project name="android_vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"         revision="android-13"   clone-depth="1" />
-    <project name="android_vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="source"         revision="android-13"   clone-depth="1" />
+    <project name="android_vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"         revision="android-13"
+    <project name="android_vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="source"         revision="android-13"
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="lineage-20"   clone-depth="1" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="lineage-20"
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="lineage-20" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="lineage-20" />
-    <project name="hardware_voltage_interfaces"                 path="hardware/voltage/interfaces"      remote="source"         revision="13" />
 
 </manifest>
