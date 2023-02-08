@@ -5,8 +5,8 @@
     <remote name="source"          fetch="https://github.com/Mgm2023"/>  
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="superior" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="superior" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="tequila" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="tequila" />
 
     <!--Vendors Trees-->
     <project name="android_vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"         revision="android-13" />
@@ -18,7 +18,5 @@
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="lineage-20" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="lineage-20" />
-    <project name="android_device_superior_sepolicy"            path="device/arrow/sepolicy"            remote="source"         revision="13.0" />
-    <project name="android_frameworks_native"                   path="frameworks/native"                remote="source"         revision="lineage-20.0" />
-
+    
 </manifest>
