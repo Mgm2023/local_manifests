@@ -9,8 +9,7 @@
     <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="tequila" />
 
     <!--Vendors Trees-->
-    <project name="android_vendor_samsung_d2s"                  path="vendor/samsung/d2s"               remote="source"         revision="android-13" />
-    <project name="android_vendor_samsung_exynos9820-common"    path="vendor/samsung/exynos9820-common" remote="source"         revision="android-13" />
+    <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="13.0" />
