@@ -5,14 +5,14 @@
     <remote name="source"          fetch="https://github.com/Mgm2023"/>  
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="voltage" />
-    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"         revision="voltage" />
-    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"         revision="voltage" />
-    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="voltage" />
-    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="voltage" />
-    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="voltage" />
-    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="voltage" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="voltage" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="arrow" />
+    <project name="android_device_samsung_d2x"                  path="device/samsung/d2x"               remote="source"         revision="arrow" />
+    <project name="android_device_samsung_d1"                   path="device/samsung/d1"                remote="source"         revision="arrow" />
+    <project name="android_device_samsung_beyond0lte"           path="device/samsung/beyond0lte"        remote="source"         revision="arrow" />
+    <project name="android_device_samsung_beyond1lte"           path="device/samsung/beyond1lte"        remote="source"         revision="arrow" />
+    <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="arrow" />
+    <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="arrow" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="arrow" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
