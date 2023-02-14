@@ -23,6 +23,6 @@
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
-    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
+    <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="blaze" />
     
 </manifest>
