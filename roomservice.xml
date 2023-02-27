@@ -5,8 +5,8 @@
     <remote name="source"          fetch="https://github.com/Mgm2023"/>  
 
     <!--Devices Trees-->
-    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="spice" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="spice" />
+    <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="rice" />
+    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="rice" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
