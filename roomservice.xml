@@ -13,16 +13,16 @@
     <project name="android_device_samsung_beyondx"              path="device/samsung/beyondx"           remote="source"         revision="rice" />
     <project name="android_device_samsung_beyond2lte"           path="device/samsung/beyond2lte"        remote="source"         revision="rice" />
     <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="rice" />
-    <project name="android_device_samsung_exynos9820-common"    path="device/samsung/exynos9820-common" remote="source"         revision="rice" />
 
     <!--Vendors Trees-->
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="13.0" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="android-13-merge" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
-    
+    <project name="android_system_sepolicy"                     path="system/sepolicy"                  remote="source"         revision="tiramisu" />
+    <project name="packages_modules_Bluetooth"                  path="packages/modules/Bluetooth"       remote="source"         revision="tiramisu" />
 </manifest>
