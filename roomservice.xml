@@ -18,12 +18,12 @@
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="13.0" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="android-13-merge" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
     <project name="packages_apps_FaceUnlockService"             path="packages/apps/FaceUnlockService"  remote="source"         revision="13" />
-    <project name="android_hardware_blaze_interfaces"           path="hardware/blaze/interfaces"        remote="source"         revision="13.0" />
+    <project name="android_hardware_blaze_interfaces"           path="hardware/blaze/interfaces"        remote="source"         revision="lineage-20.0" />
 
 </manifest>
