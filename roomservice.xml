@@ -25,5 +25,6 @@
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
     <project name="packages_apps_FaceUnlockService"             path="packages/apps/FaceUnlockService"  remote="source"         revision="13" />
     <project name="android_hardware_blaze_interfaces"           path="hardware/blaze/interfaces"        remote="source"         revision="lineage-20.0" />
+    <project name="android_packages_apps_Aperture"              path="packages/apps/Aperture"           remote="source"         revision="lineage-20.0" />
 
 </manifest>
