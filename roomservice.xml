@@ -23,5 +23,6 @@
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
     <project name="android_hardware_samsung"                    path="hardware/samsung"                 remote="source"         revision="android-13" />
+    <project name="android_packages_apps_Aperture"              path="packages/apps/Aperture"           remote="source"         revision="lineage-20.0" />
 
 </manifest>
