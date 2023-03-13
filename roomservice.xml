@@ -3,6 +3,7 @@
 
     <!--Remotes-->
     <remote name="source"          fetch="https://github.com/Mgm2023"/>  
+    <remote name="awakened1712"    fetch="https://github.com/awakened1712"/>
 
     <!--Devices Trees-->
     <project name="android_device_samsung_d2s"                  path="device/samsung/d2s"               remote="source"         revision="rice" />
@@ -18,7 +19,7 @@
     <project name="proprietary_vendor_samsung"                  path="vendor/samsung"                   remote="source"         revision="lineage-20" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="source"         revision="android-13-merge" />
+    <project name="android_kernel_samsung_exynos9820"           path="kernel/samsung/exynos9820"        remote="awakened1712"   revision="android-13-merge" />
 
     <!-- Dependencies -->
     <project name="android_device_samsung_slsi_sepolicy"        path="device/samsung_slsi/sepolicy"     remote="source"         revision="android-13" />
